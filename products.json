@@ -1,0 +1,50 @@
+[
+    {
+        "product_id": 1,
+        "name": "Akıllı Telefon",
+        "description": "5G destekli, 128GB depolama alanına sahip akıllı telefon.",
+        "price": 7999.99,
+        "category": "Elektronik",
+        "stock": 25
+    },
+    {
+        "product_id": 2,
+        "name": "Kablosuz Kulaklık",
+        "description": "Bluetooth bağlantılı, gürültü önleyici özellikli kulaklık.",
+        "price": 999.99,
+        "category": "Elektronik",
+        "stock": 50
+    },
+    {
+        "product_id": 3,
+        "name": "Dizüstü Bilgisayar",
+        "description": "16GB RAM, 512GB SSD, Intel i7 işlemcili dizüstü bilgisayar.",
+        "price": 14999.99,
+        "category": "Bilgisayar",
+        "stock": 15
+    },
+    {
+        "product_id": 4,
+        "name": "Akıllı Saat",
+        "description": "Kalp ritmi izleyici, GPS özellikli su geçirmez akıllı saat.",
+        "price": 1999.99,
+        "category": "Giyilebilir Teknoloji",
+        "stock": 30
+    },
+    {
+        "product_id": 5,
+        "name": "Mikrodalga Fırın",
+        "description": "700W gücünde, dijital göstergeli mikrodalga fırın.",
+        "price": 1299.99,
+        "category": "Ev Aletleri",
+        "stock": 10
+    },
+    {
+        "product_id": 6,
+        "name": "Elektrikli Süpürge",
+        "description": "Yüksek emiş gücü ve HEPA filtreli sessiz elektrikli süpürge.",
+        "price": 899.99,
+        "category": "Ev Aletleri",
+        "stock": 20
+    }
+]

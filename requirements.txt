@@ -1,0 +1,6 @@
+boto3
+anthropic_bedrock
+python-docx
+pytesseract
+PyPDF2
+google-cloud-aiplatform
