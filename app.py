@@ -81,17 +81,14 @@ def main():
                 )
 
     st.markdown("<hr>", unsafe_allow_html=True)
-    user_input = st.text_input("Mesajınızı yazın ve Enter'a basın:", key="user_input")
+    user_input = st.text_input("Mesajınızı yazın ve Enter'a basın:")
 
-    if st.button("Gönder"):
-        if user_input:
-            st.session_state["messages"].append({"role": "user", "content": user_input})
-            
-            bot_response = recommend_product(user_input, products)
-            if bot_response:
-                st.session_state["messages"].append({"role": "bot", "content": bot_response})
-            
-            st.session_state["user_input"] = st.empty()
+    if st.button("Gönder") and user_input:
+        st.session_state["messages"].append({"role": "user", "content": user_input})
+        
+        bot_response = recommend_product(user_input, products)
+        if bot_response:
+            st.session_state["messages"].append({"role": "bot", "content": bot_response})
 
 if __name__ == "__main__":
     main()
